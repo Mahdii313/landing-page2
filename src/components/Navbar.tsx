@@ -114,7 +114,7 @@ const Navbar = () => {
               } font-Jaro2X relative py-6`}
             >
               <h2
-                className="text-[12px] sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl bg-gradient-to-b from-yellow-500 to-yellow-300 bg-clip-text text-transparent hover:text-yellow-300 duration-500 cursor-pointer border-yellow-300 border-b sm:border-b-2 md:border-b-4"
+                className="bgc text-[12px] sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl bg-gradient-to-b from-yellow-500 to-yellow-300 bg-clip-text text-transparent hover:text-yellow-300 duration-500 cursor-pointer border-yellow-300 border-b sm:border-b-2 md:border-b-4"
                 onMouseEnter={() => setShowDescription(item.title)}
                 onMouseLeave={() => setShowDescription(null!)}
               >

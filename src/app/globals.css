@@ -16,3 +16,8 @@
   font-family: "RobotoMono";
   src: url("/RobotoMonoFont/RobotoMono-Medium.ttf");
 }
+
+.bgc {
+  background-clip: text;
+  -webkit-background-clip: text;
+}
