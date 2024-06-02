@@ -9,9 +9,13 @@ import Slider from "./Slider";
 
 const Navbar = () => {
   let menuItems = [];
-  for (let i = 0; i < NavbarItems.length; i++) {
-    menuItems[i] = useRef<HTMLDivElement>(null);
-  }
+  // for (let i = 0; i < NavbarItems.length; i++) {
+  menuItems[0] = useRef<HTMLDivElement>(null);
+  menuItems[1] = useRef<HTMLDivElement>(null);
+  menuItems[2] = useRef<HTMLDivElement>(null);
+  menuItems[3] = useRef<HTMLDivElement>(null);
+  menuItems[4] = useRef<HTMLDivElement>(null);
+  // }
 
   const nav = useRef<HTMLElement>(null);
   const navHeader = useRef<HTMLHeadingElement>(null);
